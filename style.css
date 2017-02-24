@@ -457,8 +457,8 @@ article {
 }
 
 article .taste, .nice, .robar {
-    width: 31%;
-    float: left;
+    /*width: 100%;*/
+    /*float: left;*/
     background-color: #fff;
 }
 
@@ -521,9 +521,13 @@ article .taste {
     position: relative;
 }
 
+article  .carousel-item {
+    /*margin-right: 10px;*/
+}
+
 article .robar {
     position: relative;
-    margin: 0 20px;
+    /*margin: 0 20px;*/
 }
 
 article .nice {
