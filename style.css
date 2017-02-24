@@ -457,8 +457,8 @@ article {
 }
 
 article .taste, .nice, .robar {
-    /*width: 100%;*/
-    /*float: left;*/
+    width: 100%;
+    float: left;
     background-color: #fff;
 }
 
@@ -486,17 +486,24 @@ article .nice img {
     width: 100%;
 }
 
-article i.fa.fa-angle-left {
-    float: left;
-    margin: 170px 0;
+article i.fa.fa-angle-left, article i.fa.fa-angle-right  {
     color: #adadad;
+    position: absolute;
+    z-index: 11;
+    top: 175px;
+
+
+
+}
+
+article i.fa.fa-angle-left {
+    left: 0;
 }
 
 article i.fa.fa-angle-right {
-    float: right;
-    margin: 170px 0;
-    color: #adadad;
+    right: 0;
 }
+
 article .bot_tex {
     padding: 30px;
 }
@@ -521,20 +528,20 @@ article .taste {
     position: relative;
 }
 
-article  .carousel-item {
-    /*margin-right: 10px;*/
-}
-
 article .robar {
     position: relative;
     /*margin: 0 20px;*/
+}
+
+article .block {
+    margin-right: 20px;
 }
 
 article .nice {
     position: relative;
 }
 
-article span {
+article span.trig {
     position: absolute;
     top: 0;
     right: 0;
